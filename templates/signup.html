@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SignUp page</title>
+    <link rel="stylesheet" href="static/signup-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&amp;display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="main-bg">
+        <div class="auth-right">
+
+        </div>
+        <div class="signup-rectangle">
+
+            <img src="static/log.png" alt="log" class="log">
+        </div>
+        <div class="signup-content">
+            <img src="static/logo.png" alt="logo" class="logo">
+            <h3 class="signup-text">SignUp</h3>
+
+            <form class="login-form" method="post">
+                <input type="text" class="user-name-input" name="username" placeholder="     Username" required>
+                <input type="password" class="user-pass-input" name="password" placeholder="      Password" required>
+                <input type="password" class="user-confirm-pass-input" name="conpassword" placeholder="      Confirm Password" required>
+                <button type="submit" class="btn-signup" name="signup">SignUp</button>
+                <p class="new-sign"><a href="{{url_for('login')}}">Login</a> instead!</p>
+
+            </form>
+
+            </form>
+
+
+        </div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>

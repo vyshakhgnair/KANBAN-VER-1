@@ -1,0 +1,136 @@
+body {
+    background-color: white;
+}
+
+.auth-right {
+
+    position: absolute;
+    width: 520px;
+    height: 978px;
+    left: 1400px;
+    top: 0px;
+
+    background: #F8B916;
+}
+
+.login-rectangle {
+    height: 700px;
+    width: 1300px;
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    margin: -350px 0 0 -600px;
+    background-color: white;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 7px solid #000000;
+    border-radius: 20.0252px;
+
+
+}
+
+
+.log {
+    position: absolute;
+    width: 600px;
+    height: 685px;
+    left: 100px;
+    top: 100px;
+    margin: -100px 0 0 -100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.logo {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 1210px;
+    top: 160px;
+
+}
+
+.login-text {
+    font-size: 60px;
+    font-family: 'Itim', cursive;
+    color: #000000;
+    position: absolute;
+    margin: 260px 0px 0px 1180px;
+}
+
+
+.user-name-input {
+
+    position: absolute;
+    width: 351.07px;
+    height: 53.07px;
+    left: 1080.13px;
+    top: 400.35px;
+    font-family: 'Itim', cursive;
+    font-size: 29px;
+    background: #F0F0F0;
+    border-radius: 38.0478px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-style: none;
+}
+
+.user-pass-input {
+    position: absolute;
+    width: 351.07px;
+    height: 53.07px;
+    left: 1080.13px;
+    top: 500.35px;
+    font-family: 'Itim', cursive;
+    font-size: 29px;
+    background: #F0F0F0;
+    border-radius: 38.0478px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-style: none;
+}
+
+.btn-login {
+    position: absolute;
+    width: 155.03px;
+    height: 54.07px;
+    left: 1180.15px;
+    top: 630.62px;
+    background: #0D0D0D;
+    box-shadow: 0px 4.00503px 4.00503px rgba(0, 0, 0, 0.25);
+    border-radius: 11.0138px;
+
+
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32.0403px;
+    line-height: 38px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    color: #FFFCFC;
+}
+
+.btn-login:hover{
+    background: white;;
+    color: #000000;
+}
+
+
+.new-sign {
+    position: absolute;
+    width: 300.03px;
+    height: 54.07px;
+    left: 1110.15px;
+    top: 690.62px;
+
+
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 25px;
+
+    color: #000000;
+
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="static/basic-dashboard-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-menu">
+            <div class="left content">
+                <img src="static/logo.png" alt="logo" class="logo">
+                <div class="menu">
+
+                    <button class="dash-button"><i class="fa fa-check-square"></i> Dashboard</button>
+                    <button class="analytics-button"><i class="fa fa-bar-chart-o"></i> Analytics</button>
+                    <button class="profile-button"> <i class="fa fa-users"></i> Profile</button>
+                    <button class="sum-button"><i class="fa fa-id-card"></i> Summary</button>
+                    <button class="log-button"> <i class="fa fa-angle-double-left"></i> Logout</button>
+
+                </div>
+            </div>
+        </div>
+
+        <button class="add-button" href="{{url_for('addlist')}}"> <i class="fa fa-plus"></i> Add list</button>
+        <button class="exp-button"> <i class="fa fa-download"></i> Export</button>
+    </div>
+    <div class="user-rectangle">
+        <img src="static/user-alt.png" width="70" height="70">
+    </div>
+    <div class="chip">{{usernm}}</div>
+
+    </div>
+    <div class="text">Hello {{usernm}},</div>
+
+</body>
+
+</html>
